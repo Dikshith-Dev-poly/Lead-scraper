@@ -1,0 +1,27 @@
+{
+  "name": "google-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dikshith-Dev-poly/Lead-scraper.git"
+  },
+  "keywords": [],
+  "author": "Dikshith",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Dikshith-Dev-poly/Lead-scraper/issues"
+  },
+  "homepage": "https://github.com/Dikshith-Dev-poly/Lead-scraper#readme",
+  "dependencies": {
+    "puppeteer": "^24.42.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}

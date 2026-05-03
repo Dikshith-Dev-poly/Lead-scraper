@@ -51,14 +51,14 @@ async function enterInput(page) {
     await wait();
     await page.keyboard.press("Enter");
 }
+// document.querySelectorAll(".Nv2PK.THOPZb.CpccDe.CdoAJb")-all article
 
-
-async function main() {
+async function main(url) {
     try {
         const page = await launchBrowser(browserOpt);
         await setBrowserApi(page);
         await page.goto(url, { waitUntil: "networkidle2" });
-        await wait(2000);
+        await wait(1000);
         await enterInput(page);
     } catch (err) {
         console.log("Error:", err.message);
@@ -68,4 +68,4 @@ async function main() {
 
 
 
-main();
+main(url);
